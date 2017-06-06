@@ -1,6 +1,6 @@
 ![Image of cute brain](https://parade.com/wp-content/uploads/2015/09/Brain-Booster.jpg)
 # BRAINFLOSS
-This App's sole purpose is to provide you with random facts and trivia, some educational others purely for your entertainment.
+Brainfoss is a fun and whimsical application that provides visitors with random facts and trivia generated from 3 APIs and a hardcoded database.
 
 Specs:
 
