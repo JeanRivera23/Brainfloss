@@ -4,11 +4,11 @@ Brainfoss is a fun and whimsical application that provides visitors with random 
 
 Tech used:
 
-* Ruby on Rails
-
 * HTML & CSS
 
 * Javascript
+
+* Ruby on Rails
 
 * Ruby
 
