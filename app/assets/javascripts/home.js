@@ -11,7 +11,7 @@
 
 
   // star wars api
-  $.getJSON("http://swapi.co/api/people/" + swPeeps,
+  $.getJSON("https://swapi.co/api/people/" + swPeeps,
     function(response) {
       console.log(response);
 
@@ -111,7 +111,7 @@
 
 
   // pokemon api
-  $.getJSON("http://pokeapi.co/api/v2/pokemon/" + pokePeeps + "/",
+  $.getJSON("https://pokeapi.co/api/v2/pokemon/" + pokePeeps + "/",
     function(response) {
       console.log(response);
 
@@ -130,7 +130,7 @@
 
 
   // chuck Norris jokes api
-  $.getJSON("http://api.icndb.com/jokes/random",
+  $.getJSON("https://api.icndb.com/jokes/random",
     function(response) {
       console.log(response);
 
