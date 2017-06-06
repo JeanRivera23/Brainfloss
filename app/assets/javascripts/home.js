@@ -23,9 +23,13 @@
       var eyes = "Eyes: " + response.eye_color;
       var birth_year = "Birth Year: " +response.birth_year;
       var gender = "Gender: " + response.gender;
-      var species = response.species.sub("http", "https");
-      var homeworld = response.homeworld.sub("http", "https");
-      var films = response.films.sub("http", "https");
+
+      var spec = response.species
+      var species = spec.sub("http", "https");
+      var home = response.homeworld
+      var homeworld = home.sub("http", "https");
+      var movie = response.films
+      var films = movie.sub("http", "https");
 
 
       $.getJSON(species + "?format=json",
