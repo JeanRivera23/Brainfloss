@@ -12,6 +12,8 @@ Tech used:
 
 * Ruby
 
+* Heroku for deployment (https://brainfloss.herokuapp.com/)
+
 
 APIs used:
 
