@@ -12,6 +12,8 @@ Tech used:
 
 * Ruby
 
+* Heroku for deployment (https://brainfloss.herokuapp.com/)
+
 
 APIs used:
 
@@ -28,6 +30,11 @@ Hardcoded facts retrieved from:
 
 * Fact Retriever https://www.factretriever.com/
 *http://scrollmagic.io/docs/ScrollMagic.Scene.html
+
+To do:
+
+* Add loading icon
+* Add ability for viewer to move items on screen
 
 
 ![screen shot 2017-06-05 at 11 35 28 am](https://user-images.githubusercontent.com/26287155/26840619-b4154752-4ab4-11e7-99da-525ceb7aa7b1.png)
