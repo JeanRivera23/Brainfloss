@@ -2,10 +2,13 @@
 
 <!-- Video of the Day -->
   <div class="videoContainer">
+
     <h1 id="homeH1">Video of the Day</h1>
 
     <div class="vidOfDay">
-      <iframe src="https://www.youtube.com/embed/0M7ibPk37_U" frameborder="0" allowfullscreen></iframe>
+
+      <iframe src="https://www.youtube.com/embed/0M7ibPk37_U" frameborder="0" allowfullscreen>
+      </iframe>
 
     </div>
 
@@ -65,7 +68,9 @@
   </div>
 
 
+<!--  Haiku -->
     <div class="sudokuContainer">
+
       <h1 class="gameH1">Haiku</h1>
 
       <p id="haikuP"><%= @haifact.content.html_safe %></p>
@@ -75,12 +80,16 @@
     </div>
 
 
+<!--  Star Wars -->
+
   <div class="starWarsContainer">
+
     <%= image_tag('star_wars1600.png', size: "100x100", class: "starWars") %>
 
     <div class="starWarsContent">
 
       <h2 id="hTest"></h2>
+
       <div class="starScroll" id="content">
       </div>
 
@@ -94,6 +103,8 @@
   </div>
 
 
+<!-- Pokemon -->
+
   <div class="pokeContainer">
     <%= image_tag('pokeball.png', size: "100x100", class: "pokeball") %>
 
@@ -106,12 +117,15 @@
   </div>
 
 
+<!-- PBS Nova Videos -->
+
   <div class="educationalVidContainer">
     <h1 id="smartH1"><%= image_tag('light-bulb-icon.png', size: "30x30", class: "bulb") %>Get Smart</h1>
 
     <div class="smartVid">
 
-      <iframe width="420" height="260" src="https://www.youtube.com/embed/Ng7YmU6AUo4" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://www.youtube.com/embed/Ng7YmU6AUo4" frameborder="0" allowfullscreen>
+      </iframe>
 
     </div>
 
