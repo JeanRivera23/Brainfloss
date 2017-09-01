@@ -90,6 +90,7 @@
           );
       }
 
+      // Manipulating DOM
 
       // HTML elements stored in variables
       var headline = document.getElementById("hTest");
