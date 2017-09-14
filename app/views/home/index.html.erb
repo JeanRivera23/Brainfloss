@@ -29,7 +29,7 @@
 
 <!-- Animal Facts -->
   <div class="animalContainer">
-    <h1><%= image_tag('lion.png', size: "50x50", class: "animal") %><span class="aniSpan">Animal Fact</span></h1>
+    <h1 class="animalH1"><%= image_tag('lion.png', size: "50x50", class: "animal") %><span class="aniSpan">Animal Fact</span></h1>
 
       <p class="animalScroll"><%= @anifact.content.html_safe %></p>
 
@@ -39,7 +39,8 @@
 <!-- ENGLISH PROVERBS -->
 
     <div class="provContainer">
-      <h1><%= image_tag('english.png', size: "40x40", class: "proverb") %><span class="provSpan">English Proverb</span></h1>
+
+      <h1 class="provH1"><%= image_tag('english.png', size: "40x40", class: "proverb") %><span class="provSpan">English Proverb</span></h1>
 
 
         <p class="provScroll"><%= @proverb.content.html_safe %></p>
@@ -84,7 +85,7 @@
 
   <div class="starWarsContainer">
 
-    <%= image_tag('star_wars1600.png', size: "100x100", class: "starWars") %>
+    <%= image_tag('star_wars1600.png', size: "90x90", class: "starWars") %>
 
     <div class="starWarsContent">
 
@@ -106,7 +107,7 @@
 <!-- Pokemon -->
 
   <div class="pokeContainer">
-    <%= image_tag('pokeball.png', size: "100x100", class: "pokeball") %>
+    <%= image_tag('pokeball.png', size: "80x80", class: "pokeball") %>
 
     <div class="pokeContent">
 
@@ -129,7 +130,7 @@
 
     </div>
 
-    <%= image_tag('brain-idea-1.png', size: "120x120", class: "brain") %>
+    <%= image_tag('brain-idea-1.png', size: "80x80", class: "brain") %>
 
   </div>
 
