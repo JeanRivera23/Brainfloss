@@ -16,7 +16,7 @@
 
   .videoContainer {
     float: left;
-    width: 50%;
+    width: 77%;
     height: 220px;
     background-color: #DB70DB;
     padding: 8px 30px 30px 33px;
@@ -54,7 +54,7 @@
 
   .confContainer {
     float: left;
-    width: 50%;
+    width: 77%;
     height: 200px;
     background-color: #66CCCC;
     padding: 8px 30px 30px 33px;
@@ -85,7 +85,7 @@
 
   .animalContainer {
     float: left;
-    width: 50%;
+    width: 77%;
     height: 295px;
     background-color: #77DD77;
     padding: 10px 30px 30px 30px;
@@ -112,7 +112,7 @@
 
   .provContainer {
     float: left;
-    width: 50%;
+    width: 77%;
     height: 150px;
     background-color: #fcfc75;
     padding: 10px 30px 30px 30px;
@@ -140,8 +140,8 @@
 
   .chuckContainer {
     float: left;
-    width: 50%;
-    height: 155px;
+    width: 77%;
+    height: 200px;
     background-color: #6961ff;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -169,7 +169,7 @@
 // Socrates Container
   .lifeContainer {
     float: left;
-    width: 50%;
+    width: 77%;
     height: 285px;
     background-color: #0BB5FF;
     padding: 10px 30px 30px 30px;
@@ -197,7 +197,7 @@
 // Haiku Container
   .sudokuContainer {
     float: left;
-    width: 50%;
+    width: 77%;
     text-align: center;
     line-height: 2em;
     height: 210px;
@@ -215,14 +215,17 @@
 
   .sudo {
     position: relative;
-    top: -19px;
+    top: 96px;
     left: -3px;
     opacity: 0.8;
   }
 
   #haikuP {
-    width: 312px;
-    font-size: 15px;
+    position: absolute;
+    left: 45px;
+    width: 77%;
+    font-size: 12px;
+    margin-top: 2px;
   }
 
   .gameH1 {
@@ -236,8 +239,8 @@
 
   .starWarsContainer {
     float: left;
-    width: 50%;
-    height: 568px;
+    width: 77%;
+    height: 630px;
     background-color: #77DD77;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -253,8 +256,8 @@
   // starwars logo
   .starWars {
     position: relative;
-    top: 500px;
-    left: 160px;
+    top: 560px;
+    left: 170px;
   }
 
   .starWarsContent {
@@ -274,10 +277,10 @@
 
   .pokeContainer {
     float: left;
-    width: 50%;
+    width: 77%;
     height: 78px;
     background-color: #66CCCC;
-    padding: 10px 40px 40px 40px;
+    padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -297,11 +300,11 @@
   .pokeContent{
     position: relative;
     top: -100px;
-    left: 90px;
+    left: 85px;
   }
 
   #hPoke {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   #pokeContent {
@@ -311,8 +314,8 @@
 
   .educationalVidContainer {
     float: left;
-    width: 50%;
-    height: 408px;
+    width: 77%;
+    height: 260px;
     background-color: #FF6666;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -335,29 +338,28 @@
     font-size: 22px;
     padding-bottom: 8px;
     border-bottom: 3px solid #454545;
-    width: 470px;
-    position: relative;
+    width: 265px;
     top: 5px;
-    left: 10px;
+    left: 2px;
     text-align: center;
   }
 
   .smartVid {
     position: relative;
     top: 28px;
-    left: 35px;
+    left: 3px;
   }
 
   .brain {
     position: relative;
-    top: -70px;
-    left: 390px;
+    top: -80px;
+    left: 175px;
   }
 
   .confScroll {
     position: relative;
     top: -5px;
-    height: 300px;
+    height: 280px;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -371,7 +373,7 @@
   .provScroll {
     position: relative;
     top: -5px;
-    height: 300px;
+    height: 250px;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -387,7 +389,7 @@
   .lifeScroll {
     position: relative;
     top: -5px;
-    height: 300px;
+    height: 180px;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -401,6 +403,13 @@
   .filmDiv {
     position: relative;
     top: 15px;
+  }
+
+  // star wars film section scroll
+  .sWarsFilms {
+    height: 180px;
+    overflow: hidden;
+    overflow-y: auto;
   }
 
   #sWarsFilms {
@@ -643,7 +652,7 @@
     width: 310px;
     height: 210px;
     background-color: #FF7F24;
-    padding: 10px 30px 30px 30px;
+    padding: 10px;
     -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
     -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
     box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
@@ -665,8 +674,11 @@
   }
 
   #haikuP {
-    width: 312px;
-    font-size: 15px;
+    position: relative;
+    left: 0px;
+    width: 230px;
+    font-size: 12px;
+    padding: 0;
   }
 
   .gameH1 {
@@ -839,14 +851,14 @@
   .lifeScroll {
     position: relative;
     top: -5px;
-    height: 190px;
+    height: 80px;
     width: 300px;
     overflow: hidden;
     overflow-y: auto;
   }
 
   .starScroll {
-    height: 220px;
+    height: 200px;
     overflow: hidden;
     overflow-y: auto;
   }
