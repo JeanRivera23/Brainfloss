@@ -2,25 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-/* Larger than mobile */
-
-@media (min-width: 400px) {
-
-  .mainContentContainer {
-    position: relative;
-    margin: auto;
-    padding: 0px;
-    top: 170px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 80%;
-  }
+// video container css
 
   .videoContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
     height: 220px;
     background-color: #DB70DB;
     padding: 10px 30px 30px 30px;
@@ -38,8 +22,6 @@
 
   .videoContainer:hover {
     background-color: #EE82EE;
-    top: 159px;
-    left: 19px;
   }
 
   #homeH1 {
@@ -58,11 +40,10 @@
     left: -1px;
   }
 
+  // confucius container css
+
   .confContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 200px;
+    height: 174px;
     background-color: #66CCCC;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -76,26 +57,40 @@
     background-color: #77eeee;
   }
 
+  // icon
   .confucius {
     position: relative;
-    top: 5px;
+    top: 10px;
   }
 
   #confH1 {
     font-size: 22px;
     position: relative;
-    top: 0px;
-  }
-  .confSpan {
-    position: relative;
-    left: 10px;
+    margin: 0;
+    padding: 0;
+    top: 5px;
+    left: -6px;
   }
 
+  .confSpan {
+    position: relative;
+    left: 5px;
+  }
+
+  .confScroll {
+    position: relative;
+    top: -5px;
+    height: 100px;
+    margin-top: 25px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+
+  // animal container css
+
   .animalContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 295px;
+    height: 270px;
     background-color: #77DD77;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -110,24 +105,35 @@
   }
 
   .animalH1 {
-    margin-bottom: 2px;
+    position: relative;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 5px;
+    left: -6px;
   }
 
   .aniSpan {
     font-size: 22px;
     position: relative;
-    left: 10px;
+    left: 3px;
   }
 
   .animal {
     position: relative;
-    top: 8px;
+    top: 10px;
   }
 
+  .animalScroll {
+    height: 175px;
+    margin-top: 15px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+
+ // english proverb container css
   .provContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
     height: 150px;
     background-color: #fcfc75;
     padding: 10px 30px 30px 30px;
@@ -152,256 +158,14 @@
     position: relative;
     margin: 0;
     padding: 0;
+    top: 5px;
     width: 300px;
   }
 
   .provSpan {
+    position: relative;
     font-size: 22px;
-  }
-
-  .chuckContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 200px;
-    background-color: #6961ff;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .chuckContainer:hover {
-    background-color: #766ffd;
-  }
-
-  .chuckSpan {
-    font-size: 22px;
-    position: relative;
-    left: 12px;
-  }
-
-  .chuck {
-    position: relative;
-    top: 5px;
-    left: -1px;
-  }
-
-// Socrates Container
-  .lifeContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 285px;
-    background-color: #0BB5FF;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .lifeContainer:hover {
-    background-color: #42C0FB;
-  }
-
-  .thinker {
-    position: relative;
-    top: 5px;
-  }
-
-  .factsSpan {
-    font-size: 22px;
-    position: relative;
-    left: 15px;
-  }
-
-// Haiku Container
-  .sudokuContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    text-align: center;
-    line-height: 2em;
-    height: 210px;
-    background-color: #FF7F24;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .sudokuContainer:hover {
-    background-color: #fa9146;
-  }
-
-  .sudo {
-    position: relative;
-    top: 96px;
-    left: -3px;
-    opacity: 0.8;
-  }
-
-  #haikuP {
-    position: absolute;
-    left: 5%;
-    width: 100%;
-    max-width: 260px;
-    font-size: 12px;
-    margin-top: 2px;
-  }
-
-  .gameH1 {
-    font-size: 22px;
-    position: relative;
-    top: 10px;
-    left: -4px;
-    text-align: center;
-  }
-
-
-  .starWarsContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 630px;
-    background-color: #77DD77;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .starWarsContainer:hover {
-    background-color: #83f383;
-  }
-
-  // starwars logo
-  .starWars {
-    position: relative;
-    top: 570px;
-    left: 65%;
-  }
-
-  .starWarsContent {
-    position: relative;
-    top: -100px;
-  }
-
-  #hTest {
-    font-size: 22px;
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
-  }
-
-  #sWarsFilms {
-    font-size: 22px;
-  }
-
-  .pokeContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 70px;
-    background-color: #66CCCC;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .pokeContainer:hover {
-    background-color: #77eeee;
-  }
-
-  .pokeball {
-    position: relative;
-    top: 2px;
-    left: -22px;
-  }
-
-  .pokeContent{
-    position: relative;
-    top: -90px;
-    left: 30%;
-  }
-
-  #hPoke {
-    font-size: 18px;
-    width: 180px;
-  }
-
-  #pokeContent {
-    position: relative;
-    top: -10px;
-  }
-
-  .educationalVidContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 260px;
-    background-color: #FF6666;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .educationalVidContainer:hover {
-    background-color: #fd7c7c;
-  }
-
-  .bulb {
-    position: relative;
-    top: 2px;
-    left: -5px;
-  }
-
-  #smartH1 {
-    font-size: 22px;
-    padding-bottom: 8px;
-    border-bottom: 3px solid #454545;
-    width: 98%;
-    top: 5px;
-    // left: 2px;
-    text-align: center;
-  }
-
-  .smartVid {
-    position: relative;
-    top: 20px;
-    left: 3px;
-  }
-
-  .brain {
-    position: relative;
-    top: -40px;
-    left: 75%;
-  }
-
-  .confScroll {
-    position: relative;
-    top: -5px;
-    height: 130px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .animalScroll {
-    height: 200px;
-    overflow: hidden;
-    overflow-y: auto;
+    left: 0px;
   }
 
   .provScroll {
@@ -412,216 +176,11 @@
     overflow-y: auto;
   }
 
-  .chuckScroll {
-    position: relative;
-    top: -8px;
-    height: 120px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
 
-  .lifeScroll {
-    position: relative;
-    top: -5px;
-    height: 190px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .starScroll {
-    height: 300px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .filmDiv {
-    position: relative;
-    top: 15px;
-  }
-
-  // star wars film section scroll
-  .sWarsFilms {
-    height: 180px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  #sWarsFilms {
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
-  }
-
-  .filmScroll {
-    position: relative;
-    top: -10px;
-    height: 160px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-}
-
-/* Larger than phablet */
-
-@media (min-width: 550px) {
-
-  .mainContentContainer {
-    position: relative;
-    margin: auto;
-    padding: 0px;
-    top: 170px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 65%;
-  }
-
-  .videoContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 235px;
-    background-color: #DB70DB;
-    padding: 10px 30px 30px 30px;
-    margin: 0;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  iframe {
-    width: 96%;
-  }
-
-  .videoContainer:hover {
-    background-color: #EE82EE;
-    top: 159px;
-    left: 19px;
-  }
-
-  #homeH1 {
-    font-size: 22px;
-    text-align: center;
-    padding-bottom: 5px;
-    border-bottom: 3px solid #454545;
-    width: 98%;
-    position: relative;
-    left: -3px;
-  }
-
-  .vidOfDay {
-    position: relative;
-    top: 10px;
-    left: -1px;
-  }
-
-  .confContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 215px;
-    background-color: #66CCCC;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .confContainer:hover {
-    background-color: #77eeee;
-  }
-
-  .confucius {
-    position: relative;
-    top: 5px;
-  }
-
-  #confH1 {
-    font-size: 22px;
-    position: relative;
-    top: 0px;
-  }
-  .confSpan {
-    position: relative;
-    left: 10px;
-  }
-
-  .animalContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 310px;
-    background-color: #77DD77;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .animalContainer:hover {
-    background-color: #83f383;
-  }
-
-  .aniSpan {
-    font-size: 22px;
-    position: relative;
-    left: 10px;
-  }
-
-  .animalH1 {
-    margin-bottom: 2px;
-  }
-
-  .animal {
-    position: relative;
-    top: 8px;
-  }
-
-  .provContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 165px;
-    background-color: #fcfc75;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .provContainer:hover {
-    background-color: #FDFD96;
-  }
-
-  .proverb {
-    position: relative;
-    top: 5px;
-    left: -8px;
-  }
-
-  .provH1 {
-    position: relative;
-    margin: 0;
-    padding: 0;
-    width: 300px;
-  }
-
-  .provSpan {
-    font-size: 22px;
-  }
+  // chuck norris container css
 
   .chuckContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 215px;
+    height: 100px;
     background-color: #6961ff;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -638,21 +197,37 @@
   .chuckSpan {
     font-size: 22px;
     position: relative;
-    left: 12px;
+    top: -3px;
+    left: 4px;
   }
 
   .chuck {
     position: relative;
-    top: 5px;
+    top: 0;
     left: -1px;
   }
 
+  .chuckH1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    top: 15px;
+    left: -2px;
+  }
+
+  .chuckScroll {
+    position: relative;
+    top: 10px;
+    height: 40px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+
 // Socrates Container
+
   .lifeContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 300px;
+    height: 165px;
     background-color: #0BB5FF;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -673,199 +248,10 @@
   .factsSpan {
     font-size: 22px;
     position: relative;
-    left: 15px;
+    left: 10px;
   }
 
-// Haiku Container
-  .sudokuContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 225px;
-    text-align: center;
-    line-height: 2em;
-    background-color: #FF7F24;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .sudokuContainer:hover {
-    background-color: #fa9146;
-  }
-
-  .sudo {
-    position: relative;
-    top: 96px;
-    left: -3px;
-    opacity: 0.8;
-  }
-
-  #haikuP {
-    position: absolute;
-    left: 5%;
-    width: 100%;
-    max-width: 305px;
-    font-size: 12px;
-    margin-top: 2px;
-  }
-
-  .gameH1 {
-    font-size: 22px;
-    position: relative;
-    top: 10px;
-    left: -27px;
-    width: 332px;
-    text-align: center;
-  }
-
-
-  .starWarsContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 645px;
-    background-color: #77DD77;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .starWarsContainer:hover {
-    background-color: #83f383;
-  }
-
-  // starwars logo
-  .starWars {
-    position: relative;
-    top: 570px;
-    left: 65%;
-  }
-
-  .starWarsContent {
-    position: relative;
-    top: -100px;
-  }
-
-  #hTest {
-    font-size: 22px;
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
-  }
-
-  #sWarsFilms {
-    font-size: 22px;
-  }
-
-  .pokeContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 85px;
-    background-color: #66CCCC;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .pokeContainer:hover {
-    background-color: #77eeee;
-  }
-
-  .pokeball {
-    position: relative;
-    top: 2px;
-    left: -22px;
-  }
-
-  .pokeContent{
-    position: relative;
-    top: -90px;
-    left: 30%;
-  }
-
-  #hPoke {
-    font-size: 18px;
-    width: 180px;
-  }
-
-  #pokeContent {
-    position: relative;
-    top: -10px;
-  }
-
-  .educationalVidContainer {
-    float: left;
-    width: 85%;
-    max-width: 275px;
-    height: 275px;
-    background-color: #FF6666;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .educationalVidContainer:hover {
-    background-color: #fd7c7c;
-  }
-
-  .bulb {
-    position: relative;
-    top: 2px;
-    left: -5px;
-  }
-
-  #smartH1 {
-    font-size: 22px;
-    padding-bottom: 8px;
-    border-bottom: 3px solid #454545;
-    width: 98%;
-    top: 5px;
-    // left: 2px;
-    text-align: center;
-  }
-
-  .smartVid {
-    position: relative;
-    top: 20px;
-    left: 3px;
-  }
-
-  .brain {
-    position: relative;
-    top: -40px;
-    left: 75%;
-  }
-
-  .confScroll {
-    position: relative;
-    top: -5px;
-    height: 140px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .animalScroll {
-    position: relative;
-    top: -5px;
-    height: 220px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .provScroll {
+  .lifeScroll {
     position: relative;
     top: -5px;
     height: 100px;
@@ -873,276 +259,17 @@
     overflow-y: auto;
   }
 
-  .chuckScroll {
-    position: relative;
-    top: -8px;
-    height: 130px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .lifeScroll {
-    position: relative;
-    top: -5px;
-    height: 210px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .starScroll {
-    height: 300px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .filmDiv {
-    position: relative;
-    top: 15px;
-  }
-
-  // star wars film section scroll
-  .sWarsFilms {
-    height: 180px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  #sWarsFilms {
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
-  }
-
-  .filmScroll {
-    position: relative;
-    top: -10px;
-    height: 145px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-}
-
-/* Larger than tablet */
-
-@media (min-width: 750px) {
-  .mainContentContainer {
-    position: relative;
-    margin: auto;
-    padding: 0px;
-    top: 170px;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    width: 94%;
-  }
-
-  .videoContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 220px;
-    background-color: #DB70DB;
-    padding: 10px 30px 30px 30px;
-    margin: 0;
-    margin-right: 32px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  iframe {
-    width: 98%;
-  }
-
-  .videoContainer:hover {
-    background-color: #EE82EE;
-    top: 159px;
-    left: 19px;
-  }
-
-  #homeH1 {
-    font-size: 22px;
-    text-align: center;
-    padding-bottom: 5px;
-    border-bottom: 3px solid #454545;
-    width: 98%;
-    position: relative;
-    left: -3px;
-  }
-
-  .vidOfDay {
-    position: relative;
-    top: 10px;
-    left: -1px;
-  }
-
-  .confContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 200px;
-    background-color: #66CCCC;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .confContainer:hover {
-    background-color: #77eeee;
-  }
-
-  .confucius {
-    position: relative;
-    top: 5px;
-  }
-
-  #confH1 {
-    font-size: 22px;
-    position: relative;
-    top: 0px;
-  }
-  .confSpan {
-    position: relative;
-    left: 10px;
-  }
-
-  .animalContainer {
-    clear: left;
-    width: 77%;
-    max-width: 260px;
-    height: 295px;
-    background-color: #77DD77;
-    padding: 10px 30px 30px 30px;
-    margin-right: 32px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .animalContainer:hover {
-    background-color: #83f383;
-  }
-
-  .animalH1 {
-    margin-bottom: 2px;
-  }
-
-  .aniSpan {
-    font-size: 22px;
-    position: relative;
-    left: 10px;
-  }
-
-  .animal {
-    position: relative;
-    top: 8px;
-  }
-
-  .provContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 150px;
-    background-color: #fcfc75;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .provContainer:hover {
-    background-color: #FDFD96;
-  }
-
-  .proverb {
-    position: relative;
-    top: 5px;
-    left: -8px;
-  }
-
-  .provH1 {
+  .socH1 {
     position: relative;
     margin: 0;
     padding: 0;
-    width: 300px;
-  }
-
-  .provSpan {
-    font-size: 22px;
-  }
-
-  .chuckContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 200px;
-    background-color: #6961ff;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .chuckContainer:hover {
-    background-color: #766ffd;
-  }
-
-  .chuckSpan {
-    font-size: 22px;
-    position: relative;
-    left: 12px;
-  }
-
-  .chuck {
-    position: relative;
-    top: 5px;
-    left: -1px;
-  }
-
-// Socrates Container
-  .lifeContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 285px;
-    background-color: #0BB5FF;
-    padding: 10px 30px 30px 30px;
-    margin-bottom: 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .lifeContainer:hover {
-    background-color: #42C0FB;
-  }
-
-  .thinker {
-    position: relative;
     top: 5px;
   }
 
-  .factsSpan {
-    font-size: 22px;
-    position: relative;
-    left: 15px;
-  }
 
 // Haiku Container
+
   .sudokuContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
     text-align: center;
     line-height: 2em;
     height: 210px;
@@ -1159,20 +286,18 @@
     background-color: #fa9146;
   }
 
+// lotus flower image
   .sudo {
-    position: relative;
-    top: 96px;
-    left: -3px;
     opacity: 0.8;
   }
 
   #haikuP {
-    position: absolute;
-    left: 5%;
-    width: 100%;
-    max-width: 260px;
+    position: relative;
+    left: -29px;
+    width: 125%;
     font-size: 12px;
     margin-top: 2px;
+    margin-bottom: 0;
   }
 
   .gameH1 {
@@ -1184,11 +309,10 @@
   }
 
 
+// star wars container css
+
   .starWarsContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
-    height: 630px;
+    height: 590px;
     background-color: #77DD77;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
@@ -1205,8 +329,8 @@
   // starwars logo
   .starWars {
     position: relative;
-    top: 570px;
-    left: 65%;
+    top: 630px;
+    left: 68%;
   }
 
   .starWarsContent {
@@ -1217,17 +341,48 @@
   #hTest {
     font-size: 22px;
     border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
+    padding-bottom: 2px;
   }
 
   #sWarsFilms {
     font-size: 22px;
+    padding-bottom: 2px;
   }
 
+  .filmDiv {
+    position: relative;
+    top: 0px;
+  }
+
+  .sWarsFilms {
+    height: 140px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  .starScroll {
+    height: 360px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+  #sWarsFilms {
+    border-bottom: 3px solid #454545;
+    padding-bottom: 5px;
+  }
+
+  .filmScroll {
+    position: relative;
+    top: -10px;
+    height: 140px;
+    overflow: hidden;
+    overflow-y: auto;
+  }
+
+
+  // pokemon container css
+
   .pokeContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
     height: 70px;
     background-color: #66CCCC;
     padding: 10px 30px 30px 30px;
@@ -1250,13 +405,15 @@
 
   .pokeContent{
     position: relative;
-    top: -90px;
-    left: 30%;
+    top: -55px;
+    left: 50px;
   }
 
   #hPoke {
     font-size: 18px;
-    width: 180px;
+    width: 220px;
+    position: relative;
+    left: -10px;
   }
 
   #pokeContent {
@@ -1264,10 +421,10 @@
     top: -10px;
   }
 
+
+  // PBS/Nova container css
+
   .educationalVidContainer {
-    float: left;
-    width: 77%;
-    max-width: 260px;
     height: 260px;
     background-color: #FF6666;
     padding: 10px 30px 30px 30px;
@@ -1310,517 +467,398 @@
     left: 75%;
   }
 
-  .confScroll {
+
+
+// media queries
+
+@media (min-width: 400px) {
+  .grid {
     position: relative;
-    top: -5px;
-    height: 130px;
-    overflow: hidden;
-    overflow-y: auto;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 79%;
   }
 
-  .animalScroll {
-    height: 200px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .provScroll {
-    position: relative;
-    top: -5px;
-    height: 90px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .chuckScroll {
-    position: relative;
-    top: -8px;
-    height: 120px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .lifeScroll {
-    position: relative;
-    top: -5px;
-    height: 190px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .starScroll {
-    height: 300px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  .filmDiv {
-    position: relative;
-    top: 15px;
-  }
-
-  // star wars film section scroll
-  .sWarsFilms {
-    height: 180px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-
-  #sWarsFilms {
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
-  }
-
-  .filmScroll {
-    position: relative;
-    top: -10px;
-    height: 160px;
-    overflow: hidden;
-    overflow-y: auto;
-  }
-}
-
-/* Larger than desktop */
-
-@media (min-width: 1000px) {
-
-}
-
-/* Larger than desktop HD*/
-
-@media (min-width: 1200px) {
-  .videoContainer {
-    position: absolute;
-    top: 160px;
-    left: 20px;
-    width: 380px;
-    height: 300px;
-    background-color: #DB70DB;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .videoContainer:hover {
-    background-color: #EE82EE;
-    top: 159px;
-    left: 19px;
-    width: 382px;
-    height: 302px;
-  }
-
-  #homeH1 {
-    padding-bottom: 5px;
-    border-bottom: 3px solid #454545;
-    width: 382px;
-    position: relative;
-    left: -3px;
-  }
-
-  .vidOfDay {
-    position: relative;
-    top: 1px;
-    left: -3px;
-  }
-
-  .confContainer {
-    position: absolute;
-    top: 160px;
-    left: 500px;
-    width: 500px;
-    height: 150px;
-    background-color: #66CCCC;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .confContainer:hover {
-    background-color: #77eeee;
-    top: 159px;
-    left: 499px;
-    width: 502px;
-    height: 152px;
-  }
-
-  .confucius {
-    position: relative;
-    top: 5px;
-  }
-
-  #confH1 {
-    position: relative;
-    top: -5px;
-  }
-  .confSpan {
-    position: relative;
-    left: 10px;
+  .grid-item {
+    width: 77%;
+    max-width: 260px;
   }
 
   .animalContainer {
-    position: absolute;
-    top: 530px;
-    left: 20px;
-    width: 380px;
-    height: 195px;
-    background-color: #77DD77;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .animalContainer:hover {
-    background-color: #83f383;
-    top: 529px;
-    left: 19px;
-    width: 382px;
-    height: 197px;
-  }
-
-  .aniSpan {
-    position: relative;
-    left: 10px;
-  }
-
-  .animal {
-    position: relative;
-    top: 8px;
-  }
-
-  .provContainer {
-    position: absolute;
-    top: 375px;
-    left: 500px;
-    width: 500px;
-    height: 150px;
-    background-color: #fcfc75;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .provContainer:hover {
-    background-color: #FDFD96;
-    top: 374px;
-    left: 499px;
-    width: 502px;
-    height: 152px;
-  }
-
-  .proverb {
-    position: relative;
-    top: 5px;
-    left: -5px;
-  }
-
-  .provSpan {
-    position: relative;
-    left: 10px;
-  }
-
-  .chuckContainer {
-    position: absolute;
-    top: 590px;
-    left: 500px;
-    width: 500px;
-    height: 135px;
-    background-color: #6961ff;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .chuckContainer:hover {
-    background-color: #766ffd;
-    top: 589px;
-    left: 499px;
-    width: 502px;
-    height: 137px;
-  }
-
-  .chuckSpan {
-    position: relative;
-    left: 12px;
-  }
-
-  .chuck {
-    position: relative;
-    top: 5px;
-    left: -1px;
-  }
-
-  .lifeContainer {
-    position: absolute;
-    top: 160px;
-    left: 1100px;
-    width: 310px;
-    height: 285px;
-    background-color: #0BB5FF;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .lifeContainer:hover {
-    background-color: #42C0FB;
-    top: 159px;
-    left: 1099px;
-    width: 312px;
-    height: 287px;
-  }
-
-  .thinker {
-    position: relative;
-    top: 5px;
-  }
-
-  .factsSpan {
-    position: relative;
-    left: 15px;
-  }
-
-  .sudokuContainer {
-    position: absolute;
-    text-align: center;
-    line-height: 2em;
-    top: 515px;
-    left: 1100px;
-    width: 310px;
-    height: 210px;
-    background-color: #FF7F24;
-    padding: 10px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .sudokuContainer:hover {
-    background-color: #fa9146;
-    top: 514px;
-    left: 1099px;
-    width: 312px;
-    height: 212px;
-  }
-
-  .sudo {
-    position: relative;
-    top: -19px;
-    left: -3px;
-    opacity: 0.8;
-  }
-
-  #haikuP {
-    position: relative;
-    left: 0px;
-    width: 230px;
-    font-size: 12px;
-    padding: 0;
-  }
-
-  .gameH1 {
-    position: relative;
-    top: 10px;
-    left: -4px;
-    text-align: center;
-  }
-
-
-  .starWarsContainer {
-    position: absolute;
-    top: 160px;
-    left: 1510px;
-    width: 250px;
-    height: 568px;
-    background-color: #77DD77;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .starWarsContainer:hover {
-    background-color: #83f383;
-    top: 159px;
-    left: 1509px;
-    width: 252px;
-    height: 570px;
-  }
-
-  // starwars logo
-  .starWars {
-    position: relative;
-    top: 500px;
-    left: 160px;
-  }
-
-  .starWarsContent {
-    position: relative;
-    top: -100px;
-  }
-
-  #hTest {
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
-  }
-
-  .pokeContainer {
-    position: absolute;
-    top: 160px;
-    left: 1860px;
-    width: 470px;
-    height: 78px;
-    background-color: #66CCCC;
-    padding: 10px 40px 40px 40px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .pokeContainer:hover {
-    background-color: #77eeee;
-    top: 159px;
-    left: 1859px;
-    width: 472px;
-    height: 80px;
-  }
-
-  .pokeball {
-    position: relative;
-    top: 2px;
-    left: -22px;
-  }
-
-  .pokeContent{
-    position: relative;
-    top: -100px;
-    left: 90px;
-  }
-
-  #pokeContent {
-    position: relative;
-    top: -10px;
-  }
-
-  .educationalVidContainer {
-    position: absolute;
-    top: 320px;
-    left: 1860px;
-    width: 488px;
-    height: 408px;
-    background-color: #FF6666;
-    padding: 10px 30px 30px 30px;
-    -webkit-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    -moz-box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-    box-shadow: 10px 12px 17px -4px rgba(0,0,0,0.42);
-  }
-
-  .educationalVidContainer:hover {
-    background-color: #fd7c7c;
-    top: 319px;
-    left: 1859px;
-    width: 490px;
-    height: 410px;
-  }
-
-  .bulb {
-    position: relative;
-    top: 2px;
-    left: -5px;
-  }
-
-  #smartH1 {
-    padding-bottom: 8px;
-    border-bottom: 3px solid #454545;
-    width: 470px;
-    position: relative;
-    top: 5px;
-    left: 10px;
-    text-align: center;
-  }
-
-  .smartVid {
-    position: relative;
-    top: 28px;
-    left: 35px;
-  }
-
-  .brain {
-    position: relative;
-    top: -70px;
-    left: 390px;
-  }
-
-  .confScroll {
-    position: relative;
-    top: -5px;
-    height: 70px;
-    width: 480px;
-    overflow: hidden;
-    overflow-y: auto;
+    height: 270px;
   }
 
   .animalScroll {
-    height: 80px;
-    width: 380px;
-    overflow: hidden;
-    overflow-y: auto;
+    height: 175px;
   }
+}
 
-  .provScroll {
+@media (min-width: 450px) {
+  .grid {
     position: relative;
-    top: -5px;
-    height: 70px;
-    width: 480px;
-    overflow: hidden;
-    overflow-y: auto;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 76%;
   }
 
-  .chuckScroll {
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+}
+
+@media (min-width: 500px) {
+  .grid {
     position: relative;
-    top: -8px;
-    height: 60px;
-    width: 480px;
-    overflow: hidden;
-    overflow-y: auto;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 70%;
   }
 
-  .lifeScroll {
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+}
+
+@media (min-width: 550px) {
+  .grid {
     position: relative;
-    top: -5px;
-    height: 80px;
-    width: 300px;
-    overflow: hidden;
-    overflow-y: auto;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 63%;
   }
 
-  .starScroll {
-    height: 200px;
-    overflow: hidden;
-    overflow-y: auto;
+  .grid-item {
+    width: 260px;
   }
 
-  .filmDiv {
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+}
+
+@media (min-width: 600px) {
+  .grid {
     position: relative;
-    top: 15px;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 57%;
   }
 
-  #sWarsFilms {
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
+  .grid-item {
+    width: 260px;
   }
 
-  .filmScroll {
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+}
+
+@media (min-width: 650px) {
+  .grid {
     position: relative;
-    top: -10px;
-    height: 130px;
-    overflow: hidden;
-    overflow-y: auto;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 53%;
   }
 
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+}
+
+// start 2 columns
+@media (min-width: 700px) {
+
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 88%;
+
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+
+  .grid-item {
+    width: 77%;
+    max-width: 260px;
+  }
+
+  .animalContainer {
+    height: 135px;
+  }
+
+  .animalScroll {
+    height: 65px;
+  }
+}
+
+@media (min-width: 750px) {
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 90%;
+
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 135px;
+  }
+
+  .animalScroll {
+    height: 65px;
+  }
+}
+
+@media (min-width: 800px) {
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 88%;
+
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 135px;
+  }
+
+  .animalScroll {
+    height: 65px;
+  }
+}
+
+@media (min-width: 850px) {
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 10px;
+      width: 87%;
+
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 135px;
+  }
+
+  .animalScroll {
+    height: 65px;
+  }
+}
+
+@media (min-width: 900px) {
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 6px;
+      width: 80%;
+
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 135px;
+  }
+
+  .animalScroll {
+    height: 65px;
+  }
+}
+
+@media (min-width: 950px) {
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 12px;
+      width: 79%;
+      height: 1600px;
+
+      -webkit-column-count: 2;
+      -moz-column-count: 2;
+      column-count: 2;
+  }
+
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 135px;
+  }
+
+  .animalScroll {
+    height: 65px;
+  }
+}
+
+// start 3 columns
+
+@media (min-width: 1000px) {
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 95%;
+      height: 1000px;
+
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+
+  .grid-item {
+    width: 77%;
+    max-width: 260px;
+  }
+
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 3px;
+      width: 1055px;
+      height: 1000px;
+
+      -webkit-column-count: 3;
+      -moz-column-count: 3;
+      column-count: 3;
+  }
+
+  .grid-item {
+    width: 260px;
+  }
+
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
 }
