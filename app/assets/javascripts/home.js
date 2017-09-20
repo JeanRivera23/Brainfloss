@@ -4,7 +4,9 @@
 
 
 
-  // random numbers
+//API & DOM manipulation code
+
+// random numbers
   var whichVid = Math.floor((Math.random() * 3) + 1);
   var swPeeps = Math.floor((Math.random() * 87) + 1);
   var pokePeeps = Math.floor((Math.random() * 721) + 1);
@@ -26,21 +28,21 @@
 
 
       var spec = response.species.toString();
-      var species = spec.replace("http", "https");
+      // var species = spec.replace("http", "https");
 
-      console.log(species);
+      console.log(spec);
 
 
       var home = response.homeworld.toString();
-      var homeworld = home.replace("http", "https");
-
+      // var homeworld = home.replace("http", "https");
+      console.log(home);
 
       var flix = response.films.toString();
       var film = flix.replace("http", "https");
 
 
       //retrieving species value
-      $.getJSON(species + "?format=json",
+      $.getJSON(spec + "?format=json",
         function(response) {
           console.log(response);
 
@@ -55,7 +57,7 @@
 
 
       // retrieving homeworld value
-      $.getJSON(homeworld + "?format=json",
+      $.getJSON(home + "?format=json",
         function(response) {
           console.log(response);
 
@@ -165,3 +167,5 @@
       randomJoke.appendChild(joke1);
     }
   );
+
+//end API & DOM manipulation code
