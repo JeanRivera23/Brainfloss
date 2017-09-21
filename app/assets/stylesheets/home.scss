@@ -3,7 +3,6 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 // video container css
-
   .videoContainer {
     height: 220px;
     background-color: #DB70DB;
@@ -479,6 +478,200 @@
 
 // media queries
 
+// Samsung Galaxy S5
+@media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
+
+ .logo {
+    position: relative;
+    top: 8px;
+ }
+
+ nav {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: #ff6961;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 160%;
+  z-index: 11;
+  padding: 15px;
+  color: #454545;
+  border-bottom: 20px solid #454545;
+  height: 55px;
+ }
+
+ nav h2 {
+   display: inline;
+   position: relative;
+   left: -2px;
+   letter-spacing: 0.2em;
+  //  margin-right: 150px;
+ }
+
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 15px;
+      width: 90%;
+      height: 2300px;
+  }
+
+  .grid-item {
+    width: 70%;
+    max-width: 260px;
+  }
+
+
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+
+  // starwars logo
+  .starWars {
+    position: relative;
+    top: 530px;
+    left: 62%;
+  }
+}
+
+// iPhone5
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-device-pixel-ratio: 2) and (device-aspect-ratio: 40/71)
+{
+
+ .logo {
+    position: relative;
+    top: 8px;
+ }
+
+ nav {
+  font-family: 'Luckiest Guy', cursive;
+  background-color: #ff6961;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 160%;
+  z-index: 11;
+  padding: 15px;
+  color: #454545;
+  border-bottom: 20px solid #454545;
+  height: 55px;
+ }
+
+ nav h2 {
+   display: inline;
+   position: relative;
+   left: -2px;
+   letter-spacing: 0.2em;
+  //  margin-right: 150px;
+ }
+
+  .grid {
+    position: relative;
+      margin: auto;
+      padding: 0px;
+      top: 170px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      width: 83%;
+      height: 2300px;
+  }
+
+  .grid-item {
+    width: 88%;
+    max-width: 260px;
+  }
+
+
+  .animalContainer {
+    height: 270px;
+  }
+
+  .animalScroll {
+    height: 175px;
+  }
+
+  // starwars logo
+  .starWars {
+    position: relative;
+    top: 530px;
+    left: 62%;
+  }
+}
+
+// iPhone 6
+@media only screen and (min-device-width: 375px)
+  and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2)
+{
+  .logo {
+     position: relative;
+     top: 8px;
+  }
+
+  nav {
+   font-family: 'Luckiest Guy', cursive;
+   background-color: #ff6961;
+   position: fixed;
+   top: 0px;
+   left: 0px;
+   width: 160%;
+   z-index: 11;
+   padding: 15px;
+   color: #454545;
+   border-bottom: 20px solid #454545;
+   height: 55px;
+  }
+
+  nav h2 {
+    display: inline;
+    position: relative;
+    left: -2px;
+    letter-spacing: 0.2em;
+   //  margin-right: 150px;
+  }
+
+   .grid {
+     position: relative;
+       margin: auto;
+       padding: 0px;
+       top: 170px;
+       right: 0px;
+       bottom: 0px;
+       left: 0px;
+       width: 90%;
+       height: 2300px;
+   }
+
+   .grid-item {
+     width: 88%;
+     max-width: 260px;
+   }
+
+
+   .animalContainer {
+     height: 270px;
+   }
+
+   .animalScroll {
+     height: 175px;
+   }
+
+   // starwars logo
+   .starWars {
+     position: relative;
+     top: 530px;
+     left: 66%;
+   }
+}
+
 @media (min-width: 400px) {
   .grid {
     position: relative;
@@ -846,7 +1039,15 @@
       top: -120px;
       left: 75%;
     }
+
+  // juggling brain icon
+    .brain {
+      -moz-position: relative;
+      -moz-top: -120px;
+      -moz-left: 75%;
+    }
 }
+
 
 @media (min-width: 1200px) {
   .grid {
