@@ -91,7 +91,7 @@
 
   .animalContainer {
     height: 270px;
-    background-color: #77DD77;
+    background-color: #2E8B57;
     padding: 10px 30px 30px 30px;
     margin-bottom: 30px;
 
@@ -101,7 +101,7 @@
   }
 
   .animalContainer:hover {
-    background-color: #83f383;
+    background-color: #50C878;
   }
 
   .animalH1 {
@@ -217,7 +217,7 @@
 
   .chuckScroll {
     position: relative;
-    top: 10px;
+    top: 0px;
     height: 40px;
     overflow: hidden;
     overflow-y: auto;
@@ -329,7 +329,7 @@
   // starwars logo
   .starWars {
     position: relative;
-    top: 630px;
+    top: 530px;
     left: 68%;
   }
 
@@ -339,13 +339,17 @@
   }
 
   #hTest {
+    position: relative;
+    top: 7px;
     font-size: 22px;
     border-bottom: 3px solid #454545;
-    padding-bottom: 2px;
+    // padding-bottom: 2px;
+    margin-bottom: 0;
+
   }
 
   #sWarsFilms {
-    font-size: 22px;
+    font-size: 18px;
     padding-bottom: 2px;
   }
 
@@ -361,20 +365,23 @@
   }
 
   .starScroll {
+    position: relative;
+    top: 5px;
     height: 360px;
     overflow: hidden;
     overflow-y: auto;
   }
 
   #sWarsFilms {
-    border-bottom: 3px solid #454545;
-    padding-bottom: 5px;
+    // border-bottom: 3px solid #454545;
+    position: relative;
+    margin-bottom: 0;
   }
 
   .filmScroll {
     position: relative;
-    top: -10px;
-    height: 140px;
+    top: -2px;
+    height: 90px;
     overflow: hidden;
     overflow-y: auto;
   }
@@ -410,7 +417,7 @@
   }
 
   #hPoke {
-    font-size: 18px;
+    font-size: 22px;
     width: 220px;
     position: relative;
     left: -10px;
@@ -461,6 +468,7 @@
     left: 3px;
   }
 
+// juggling brain icon
   .brain {
     position: relative;
     top: -40px;
@@ -831,6 +839,13 @@
   .animalScroll {
     height: 175px;
   }
+
+  // juggling brain icon
+    .brain {
+      position: relative;
+      top: -120px;
+      left: 75%;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -861,4 +876,11 @@
   .animalScroll {
     height: 175px;
   }
+
+  // juggling brain icon
+    .brain {
+      position: relative;
+      top: -120px;
+      left: 75%;
+    }
 }
