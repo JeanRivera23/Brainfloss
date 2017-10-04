@@ -29,6 +29,8 @@ a {
 .logo {
    position: relative;
    top: 8px;
+   width: 70px;
+   height: 70px;
 }
 
 h1, h2, h3 {
@@ -62,102 +64,95 @@ nav ul {
   left: 80px;
 }
 
-nav li {
-  display: inline;
-  position: relative;
-  top: -35px;
-  left: 240px;
-  padding-right: 70px;
-  font-size: 18px;
-  width: 50px;
-  letter-spacing: .1em;
-}
-
-nav a {
-  text-decoration: none;
-  color: #454545;
-}
-
-nav a:hover {
-  color: #feccc9;
-}
-
- /* Larger than mobile */
-
- @media (min-width: 400px) {
-   body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #DECBB7;
-    color: #433633;
-    letter-spacing: 0.1em;
-  }
-
-  a {
-    text-decoration: none;
-    color: #433633;
-  }
+/*mobile */
+@media (min-width: 320px) {
 
   .logo {
      position: relative;
      top: 8px;
-  }
+     width: 40px;
+     height: 40px;
+   }
 
-  h1, h2, h3 {
-    font-family: 'Luckiest Guy', cursive;
-  }
+    nav {
+     font-family: 'Luckiest Guy', cursive;
+     background-color: #ff6961;
+     position: fixed;
+     top: 0px;
+     left: 0px;
+     width: 160%;
+     z-index: 1000;
+     padding: 15px;
+     color: #454545;
+     border-bottom: 10px solid #454545;
+     height: 45px;
+    }
 
-  nav {
-   font-family: 'Luckiest Guy', cursive;
-   background-color: #ff6961;
-   position: fixed;
-   top: 0px;
-   left: 0px;
-   width: 160%;
-   z-index: 11;
-   padding: 15px;
-   color: #454545;
-   border-bottom: 20px solid #454545;
-   height: 85px;
-  }
+    nav h2 {
+      display: inline;
+      position: relative;
+      left: 3px;
+      letter-spacing: 0.2em;
+      margin-right: 150px;
+    }
+}
 
-  nav h2 {
-    display: inline;
-    position: relative;
-    left: -2px;
-    letter-spacing: 0.2em;
-    margin-right: 150px;
-  }
+ /* Larger than mobile */
+ @media (min-width: 400px) {
 
-  nav ul {
-    position: relative;
-    left: 80px;
-  }
+   .logo {
+      position: relative;
+      top: 8px;
+      width: 40px;
+      height: 40px;
+    }
 
-  nav li {
-    display: inline;
-    position: relative;
-    top: -35px;
-    left: 240px;
-    padding-right: 70px;
-    font-size: 18px;
-    width: 50px;
-    letter-spacing: .1em;
-  }
+     nav {
+      font-family: 'Luckiest Guy', cursive;
+      background-color: #ff6961;
+      position: fixed;
+      top: 0px;
+      left: 0px;
+      width: 160%;
+      z-index: 11;
+      padding: 15px;
+      color: #454545;
+      border-bottom: 10px solid #454545;
+      height: 45px;
+     }
 
-  nav a {
-    text-decoration: none;
-    color: #454545;
-  }
-
-  nav a:hover {
-    color: #feccc9;
-  }
+     nav h2 {
+       display: inline;
+       position: relative;
+       left: 3px;
+       letter-spacing: 0.2em;
+       margin-right: 150px;
+     }
  }
 
  /* Larger than phablet */
-
  @media (min-width: 550px) {
 
+   logo {
+      position: relative;
+      top: 8px;
+      width: 70px;
+      height: 70px;
+   }
+
+   nav {
+    font-family: 'Luckiest Guy', cursive;
+    background-color: #ff6961;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 160%;
+    z-index: 11;
+    padding: 15px;
+    color: #454545;
+    border-bottom: 20px solid #454545;
+    height: 85px;
+   }
  }
 
  /* Larger than tablet */
@@ -175,71 +170,5 @@ nav a:hover {
  /* Larger than desktop HD*/
 
  @media (min-width: 1200px) {
-   body {
-    font-family: 'Open Sans', sans-serif;
-    background-color: #DECBB7;
-    color: #433633;
-    letter-spacing: 0.1em;
-  }
 
-  a {
-    text-decoration: none;
-    color: #433633;
-  }
-
-  .logo {
-     position: relative;
-     top: 8px;
-  }
-
-  h1, h2, h3 {
-    font-family: 'Luckiest Guy', cursive;
-  }
-
-  nav {
-   font-family: 'Luckiest Guy', cursive;
-   background-color: #ff6961;
-   position: fixed;
-   top: 0px;
-   left: 0px;
-   width: 100%;
-   z-index: 11;
-   padding: 15px;
-   color: #454545;
-   border-bottom: 20px solid #454545;
-   height: 85px;
-  }
-
-  nav h2 {
-    display: inline;
-    position: relative;
-    left: -2px;
-    letter-spacing: 0.2em;
-    margin-right: 150px;
-  }
-
-  nav ul {
-    position: relative;
-    left: 80px;
-  }
-
-  nav li {
-    display: inline;
-    position: relative;
-    top: -35px;
-    left: 240px;
-    padding-right: 70px;
-    font-size: 18px;
-    width: 50px;
-    letter-spacing: .1em;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #454545;
-  }
-
-  nav a:hover {
-    color: #feccc9;
-  }
  }
