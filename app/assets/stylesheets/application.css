@@ -24,6 +24,17 @@
 /*fonts for iphone 3 & 4*/
 @font-face {
   font-family: 'Open Sans';
+  src: url(vendor/assets/fonts/Open_Sans/OpenSans-Bold.ttf) format("truetype");
+  src: url(vendor/assets/fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: 'Luckiest Guy';
+  src: url(vendor/assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf) format("truetype");
+}
+
+/*@font-face {
+  font-family: 'Open Sans';
   src: url(/assets/fonts/Open_Sans/OpenSans-Bold.ttf) format("truetype"),
   url(/assets/fonts/Open_Sans/OpenSans-Regular.ttf) format("truetype");
 }
@@ -31,7 +42,7 @@
 @font-face {
   font-family: 'Luckiest Guy';
   src: url(/assets/fonts/Luckiest_Guy/LuckiestGuy-Regular.ttf) format("truetype");
-}
+}*/
 
 a {
   text-decoration: none;
